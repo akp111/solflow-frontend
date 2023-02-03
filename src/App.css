@@ -1,0 +1,10 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background: #D66D75;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #E29587, #D66D75);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #E29587, #D66D75); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(90deg, rgba(153,69,255,1) 28%, rgba(20,241,149,1) 79%);
+  font-family: 'Signika', sans-serif;
+   
+}

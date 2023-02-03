@@ -1,0 +1,25 @@
+.hero {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-image {
+  margin-left: 5%;
+  width: 50%;
+}
+.hero-text {
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.hero-text p {
+  font-size: calc(01em + 1vmin);
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.hero-text p b {
+  text-align: center;
+}

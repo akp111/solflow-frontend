@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+.logo {
+  padding-left: 20%;
+  text-align: center;
+  font-size: 5vh;
+}
+.navbar-links {
+  display: flex;
+  padding-right: 15%;
+}
+.navbar-link {
+  /* margin-right: 1%; */
+  display: inline-block;
+  margin: 10px 5%;
+}
+.navbar-link-button {
+  background-color: rgba(153,69,255,1);
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 15vw;
+  padding: 10px 5px;
+  border: solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.navbar-link-button:hover {
+  background-color: white;
+}

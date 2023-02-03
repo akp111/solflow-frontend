@@ -1,0 +1,53 @@
+.dashbaord {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.logo {
+  padding-left: 20%;
+  text-align: center;
+  font-size: 5vh;
+}
+.dashbaord-links {
+  display: flex;
+  padding-right: 15%;
+}
+.dashbaord-link {
+  /* margin-right: 1%; */
+  display: inline-block;
+  margin: 10px 5%;
+}
+.dashbaord-link-button {
+  background-color: #e29587;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 15vw;
+  padding: 10px 5px;
+  border: solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dashbaord-link-button:hover {
+  background-color: white;
+}
+
+.pendin-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.pending-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pending-item {
+  flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  justify-content: center;
+}
