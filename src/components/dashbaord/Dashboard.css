@@ -47,7 +47,7 @@
 }
 
 .pending-item {
-  flex: 1 0 21%; /* explanation below */
-  margin: 5px;
+  flex: 1 0 50%; /* explanation below */
+  /* margin: 5px; */
   justify-content: center;
 }

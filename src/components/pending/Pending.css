@@ -1,0 +1,21 @@
+.pending-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  text-align: center;
+  margin-left: 25%;
+  padding: 2%;
+  border-radius: 15px;
+  /* border: 2px solid black; */
+  margin-bottom: 25%;
+}
+.pending-text {
+  text-align: center;
+  font-weight: 700;
+}
+
+.pending-amount {
+  text-align: center;
+  font-weight: 700;
+}

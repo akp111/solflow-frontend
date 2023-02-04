@@ -4,7 +4,7 @@ import "./Pending.css";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import { createQROptions } from "@solana/pay";
 import axios from "axios";
-const Pending = ({ url }) => {
+const Pending = ({ url, recipient, amount }) => {
   const { publicKey, sendTransaction } = useWallet();
   const [size, setSize] = useState(() =>
     typeof window === "undefined"
@@ -36,7 +36,9 @@ const Pending = ({ url }) => {
     }
   }, [ref, qr, url]);
   return (
-    <div>
+    <div className="pending-main">
+      <p className="pending-text">Payment link for {recipient} </p>
+      <p className='pending-amount'>Amount: {amount} SOL</p>
       <div ref={ref} />
     </div>
   );

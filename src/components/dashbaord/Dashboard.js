@@ -16,7 +16,7 @@ const Dashboard = () => {
     console.log(publicKey);
 
     const callApi = async () => {
-      const response = await axios.post("http://localhost:4000/hello/pending", {
+      const response = await axios.post("https://solflow.onrender.com/hello/pending", {
         user: publicKey.toBase58(),
       });
       console.log(response);
@@ -45,7 +45,7 @@ const Dashboard = () => {
         <div className="pendin-heading">Your Pending Payments!</div>
         <div className="pending-parent">
         {url.map((data) => {
-          return <div className="pending-item"><Pending url={data && data.encodedUrl} /></div>;
+          return <div className="pending-item"><Pending url={data && data.encodedUrl} recipient={data && data.recipient} amount={data && data.amount} /></div>;
         })}
         </div>
       </div>

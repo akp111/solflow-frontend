@@ -18,7 +18,7 @@ const InitiatePayment = () => {
         const userAccount = publicKey.toBase58();
         console.log(userAccount);
         axios
-          .post("http://localhost:4000/hello/", {
+          .post("https://solflow.onrender.com/hello/", {
             user: userAccount,
             recipient: recipientwallet,
             amount: amount,
